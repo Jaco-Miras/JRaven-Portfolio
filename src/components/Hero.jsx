@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="borber-b pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start lg:mt-36">
+          <div className="flex flex-col items-center lg:items-start lg:mt-40">
             <h1 className="pb-16 text-4xl font-medium tracking-tight lg:mt-16 lg:text-6xl">
               Jaco Raven Miras
             </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2 md:p-8 lg:mt-36">
+        <div className="w-full lg:w-1/2 md:p-8 lg:mt-40">
           <div className="flex justify-center bg-gradient-to-b from-gray-400 to-gray-600 rounded">
             <img src={profilePic} alt="" />
           </div>
