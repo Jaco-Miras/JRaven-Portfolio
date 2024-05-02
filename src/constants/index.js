@@ -47,7 +47,8 @@ export const PROJECTS = [
   {
     title: "Government Website",
     image: project1,
-    description: "A responsive website which allows on mobile phones",
+    description:
+      "A responsive website which allows the users view on their mobile phone, tablets, etc.",
     technologies: ["HTML", "CSS", "React", "TailwindCSS"],
   },
   {
