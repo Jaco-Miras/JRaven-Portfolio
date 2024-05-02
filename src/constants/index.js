@@ -55,7 +55,7 @@ export const PROJECTS = [
     title: "HRIS Web Application",
     image: project2,
     description:
-      "An application for managing the applications on applicants and also has a functional job applications on job applicant on certain job opening.",
+      "An application for managing the applications on applicants and also has a functional job applications on job applicant on certain a job opening.",
     technologies: ["HTML", "CSS", "React", "Redux", "TailwindCSS"],
   },
   {
