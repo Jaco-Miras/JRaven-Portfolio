@@ -2,6 +2,8 @@ import project1 from "../assets/images/projects/government website.png";
 import project2 from "../assets/images/projects/hris.png";
 import project3 from "../assets/images/projects/driff.jpg";
 import project4 from "../assets/images/projects/dorshs.png";
+import project5 from "../assets/images/projects/peso system.png";
+import project6 from "../assets/images/projects/website administrator.png";
 
 export const HERO_CONTENT = `Dynamic and experienced ReactJS Developer with a proven
 track record of delivering high-quality web applications. With
@@ -14,10 +16,10 @@ export const ABOUT_TEXT = `Hi there! I'm Jaco Raven Miras, a frontend developer 
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "March 2023 - July 2024",
     role: "Frontend Developer",
     company: "KRZ Systems Incorporated",
-    description: `Developed a HRIS Web application that allows the applicants to apply on the specific job using, Developed a government website`,
+    description: `Developed a web HRIS application, Government websites and Systems that connected to the website like (Website Administrator Panel, etc.) . Using Redux, Authentication, React JS, Tailwind Css, ReactJS fetch`,
     technologies: [
       "HTML",
       "CSS",
@@ -50,6 +52,34 @@ export const PROJECTS = [
     description:
       "A responsive website which allows the users view on their mobile phone, tablets, etc.",
     technologies: ["HTML", "CSS", "React", "TailwindCSS"],
+  },
+  {
+    title: "Peso System",
+    image: project5,
+    description:
+      "A fully functioned system that managing the applications of the companies, this system can be reflects to the website.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Redux",
+      "Authentication",
+      "TailwindCSS",
+    ],
+  },
+  {
+    title: "Website Administrator panel",
+    image: project6,
+    description:
+      "This panel allows the admin control the content of the website.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Redux",
+      "Authentication",
+      "TailwindCSS",
+    ],
   },
   {
     title: "HRIS Web Application",

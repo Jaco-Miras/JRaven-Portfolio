@@ -6,11 +6,11 @@ import { FaFacebook } from "react-icons/fa";
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between py-2 lg:fixed lg:bg-white lg:w-full lg:border-b lg:shadow">
+    <nav className="flex items-center justify-between px-0 lg:px-14 py-2 lg:fixed lg:bg-white lg:w-full lg:border-b lg:shadow">
       <div className="flex flex-shrink-0 items-center">
         <h1 className="text-[50px]">JR</h1>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-8 flex items-center justify-end gap-4 text-2xl">
         <a
           href="https://www.linkedin.com/in/jaco-raven-miras-13b6aa201/"
           target="_blank"
@@ -38,13 +38,6 @@ export const Navbar = () => {
           rel="noopener noreferrer"
         >
           <FaInstagram />
-        </a>
-        <a
-          href="https://www.facebook.com/jraven.miras"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaFacebook />
         </a>
         <a
           href="https://www.facebook.com/jraven.miras"
