@@ -52,6 +52,7 @@ export const PROJECTS = [
     description:
       "A responsive website which allows the users view on their mobile phone, tablets, etc.",
     technologies: ["HTML", "CSS", "React", "TailwindCSS"],
+    link: "https://macodavaodeoro.com/",
   },
   {
     title: "Peso System",
@@ -66,6 +67,7 @@ export const PROJECTS = [
       "Authentication",
       "TailwindCSS",
     ],
+    link: "https://macodavaodeoro.com/#/peso-corner/peso-sys/login",
   },
   {
     title: "Website Administrator panel",
@@ -80,6 +82,7 @@ export const PROJECTS = [
       "Authentication",
       "TailwindCSS",
     ],
+    link: "https://macodavaodeoro.com/#/admin/login",
   },
   {
     title: "HRIS Web Application",
@@ -87,6 +90,7 @@ export const PROJECTS = [
     description:
       "An application for managing the applications on applicants and also has a functional job applications on job applicant on certain a job opening.",
     technologies: ["HTML", "CSS", "React", "Redux", "TailwindCSS"],
+    link: "http://97.74.95.183:44365/#/login",
   },
   {
     title: "Driff",
@@ -94,6 +98,7 @@ export const PROJECTS = [
     description:
       "A fully functioned web application that allows the users to communicate with other employees internally and externally with the company clients",
     technologies: ["HTML", "CSS", "React", "Redux", "Styled-Components"],
+    link: "https://driff.io/",
   },
 
   {
@@ -102,6 +107,7 @@ export const PROJECTS = [
     description:
       "A fully functional school web portal that allows the admins/ teachers manipulating the grades of the students and viewing for the users",
     technologies: ["HTML", "CSS", "React", "Redux", "Firebase"],
+    link: "https://dorshs-website.web.app/",
   },
 ];
 

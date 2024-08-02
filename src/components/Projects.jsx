@@ -1,5 +1,5 @@
 import { PROJECTS } from "../constants";
-
+import { TbWorldWww } from "react-icons/tb";
 const Projects = () => {
   return (
     <div className="pb-4">
@@ -28,6 +28,16 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+
+              <div className="mt-2">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={project.link}
+                >
+                  <TbWorldWww className="w-7 h-7 text-gray-800" />
+                </a>
+              </div>
             </div>
           </div>
         ))}

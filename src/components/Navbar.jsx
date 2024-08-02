@@ -16,7 +16,7 @@ export const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin />
+          <FaLinkedin className="text-[#0A66C2]" />
         </a>
         <a
           href="https://github.com/Jaco-Miras"
@@ -37,14 +37,14 @@ export const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram />
+          <FaInstagram className="text-[#CF2972]" />
         </a>
         <a
           href="https://www.facebook.com/jraven.miras"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebook />
+          <FaFacebook className="text-[#0866FF]" />
         </a>
       </div>
     </nav>
