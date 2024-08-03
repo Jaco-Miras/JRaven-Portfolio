@@ -4,6 +4,7 @@ import project3 from "../assets/images/projects/driff.jpg";
 import project4 from "../assets/images/projects/dorshs.png";
 import project5 from "../assets/images/projects/peso system.png";
 import project6 from "../assets/images/projects/website administrator.png";
+import project7 from "../assets/images/projects/movie-app.png";
 
 export const HERO_CONTENT = `Dynamic and experienced ReactJS Developer with a proven
 track record of delivering high-quality web applications. With
@@ -108,6 +109,15 @@ export const PROJECTS = [
       "A fully functional school web portal that allows the admins/ teachers manipulating the grades of the students and viewing for the users",
     technologies: ["HTML", "CSS", "React", "Redux", "Firebase"],
     link: "https://dorshs-website.web.app/",
+  },
+
+  {
+    title: "Movie App",
+    image: project7,
+    description:
+      "It is NextJS Movie Website that integrates the tmdb movie database",
+    technologies: ["HTML", "CSS", "JavaScript", "NextJS", "Tailwind"],
+    link: "https://movie-app-using-next-js.vercel.app/",
   },
 ];
 

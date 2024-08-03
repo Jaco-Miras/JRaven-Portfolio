@@ -29,7 +29,7 @@ const Projects = () => {
                 </span>
               ))}
 
-              <div className="mt-2">
+              <div className="mt-4">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
