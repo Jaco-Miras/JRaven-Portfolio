@@ -8,7 +8,7 @@ import project7 from "../assets/images/projects/movie-app.png";
 
 export const HERO_CONTENT = `Dynamic and experienced ReactJS Developer with a proven
 track record of delivering high-quality web applications. With
-3 years of hands-on experience, adept at leveraging ReactJS
+4 years of hands-on experience, adept at leveraging ReactJS
 and associated technologies to build scalable and intuitive
 user interfaces.`;
 
