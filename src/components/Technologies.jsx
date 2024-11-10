@@ -6,6 +6,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
+import { RiAngularjsFill } from "react-icons/ri";
+import { SiShadcnui } from "react-icons/si";
 
 const Technologies = () => {
   return (
@@ -29,6 +31,9 @@ const Technologies = () => {
           <RiReactjsFill className="text-[#5ED3F3] text-6xl" />
         </div>
         <div className="rounded-2xl p-4">
+          <RiAngularjsFill className="text-red-600 text-6xl" />
+        </div>
+        <div className="rounded-2xl p-4">
           <SiRedux className="text-[#7248B6] text-6xl" />
         </div>
         <div className="rounded-2xl p-4">
@@ -36,6 +41,9 @@ const Technologies = () => {
         </div>
         <div className="rounded-2xl p-4">
           <RiTailwindCssFill className="text-[#15B8C5] text-6xl" />
+        </div>
+        <div className="rounded-2xl p-4">
+          <SiShadcnui className="text-gray-800 text-4xl" />
         </div>
       </div>
     </div>

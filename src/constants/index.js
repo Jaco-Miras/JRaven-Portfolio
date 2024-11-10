@@ -17,6 +17,14 @@ export const ABOUT_TEXT = `Hi there! I'm Jaco Raven Miras, a frontend developer 
 
 export const EXPERIENCES = [
   {
+    year: "September 2024 - Present",
+    role: "Advanced Application Engineering Analyst",
+    company: "Accenture",
+    description: ``,
+    technologies: [],
+  },
+
+  {
     year: "March 2023 - July 2024",
     role: "Frontend Developer",
     company: "KRZ Systems Incorporated",
