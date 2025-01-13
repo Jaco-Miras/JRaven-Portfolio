@@ -6,8 +6,8 @@ const Hero = () => {
     <div className="borber-b pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start lg:mt-40">
-            <h1 className="pb-16 text-4xl font-medium tracking-tight lg:mt-16 lg:text-6xl">
+          <div className="flex flex-col items-start lg:items-start lg:mt-40">
+            <h1 className="pb-10 mt-10 text-4xl font-medium tracking-tight lg:mt-16 lg:text-6xl">
               Jaco Raven Miras
             </h1>
             <span className="bg-gradient-to-r from-blue-500 via-slate-500 to-red-500 bg-clip-text text-4xl tracking-tight text-transparent">
