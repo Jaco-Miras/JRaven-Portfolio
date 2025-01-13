@@ -20,16 +20,19 @@ const Projects = () => {
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-gray-900">{project.description}</p>
-              {project.technologies.map((tech, idx) => (
-                <span
-                  key={idx}
-                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-gray-100"
-                >
-                  {tech}
-                </span>
-              ))}
 
-              <div className="mt-4">
+              <div className="mb-8 flex flex-wrap">
+                {project.technologies.map((tech, idx) => (
+                  <span
+                    key={idx}
+                    className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-gray-100"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="mt-4 w-4">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
