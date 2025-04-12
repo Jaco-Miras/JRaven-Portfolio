@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-0 lg:px-8 py-2 lg:fixed lg:bg-white lg:w-full lg:border-b lg:shadow">
+    <nav className="flex items-center justify-between  px-0 lg:px-8 py-0 lg:fixed lg:bg-white lg:w-full lg:border-b lg:shadow">
       <div className="flex flex-shrink-0 items-center">
         <h1 className="text-[50px]">JR</h1>
       </div>

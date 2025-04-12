@@ -14,8 +14,8 @@ const App = () => {
           <div class="absolute bottom-0 left-0 right-0 top-0"></div>
         </div>
       </div>
+      <Navbar />
       <div className="px-8">
-        <Navbar />
         <Hero />
         <About />
         <Technologies />

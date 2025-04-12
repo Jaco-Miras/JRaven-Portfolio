@@ -5,6 +5,7 @@ import project4 from "../assets/images/projects/dorshs.png";
 import project5 from "../assets/images/projects/peso system.png";
 import project6 from "../assets/images/projects/website administrator.png";
 import project7 from "../assets/images/projects/movie-app.png";
+import project8 from "../assets/images/projects/chat-app.png";
 
 export const HERO_CONTENT = `Dynamic and experienced ReactJS Developer with a proven
 track record of delivering high-quality web applications. With
@@ -21,7 +22,15 @@ export const EXPERIENCES = [
     role: "Advanced Application Engineering Analyst",
     company: "Accenture",
     description: ``,
-    technologies: [],
+    technologies: [
+      "React",
+      "Angular",
+      "Vue",
+      "Dev-ops",
+      "AWS",
+      ".NET",
+      "NodeJS",
+    ],
   },
 
   {
@@ -126,6 +135,23 @@ export const PROJECTS = [
       "It is NextJS Movie Website that integrates the tmdb movie database",
     technologies: ["HTML", "CSS", "JavaScript", "NextJS", "Tailwind"],
     link: "https://movie-app-using-next-js.vercel.app/",
+  },
+
+  {
+    title: "Chat App",
+    image: project8,
+    description:
+      "It is a personal project web-based chat application that focuses on MERN (MongoDB, Express, React, NodeJS) with socket.io and zustand",
+    technologies: [
+      "MongoDB",
+      "ExpressJS",
+      "React",
+      "NodeJS",
+      "Tailwind",
+      "Typescript",
+      "Zustand",
+    ],
+    link: "https://chat-app-v3-ahsc.vercel.app/",
   },
 ];
 
